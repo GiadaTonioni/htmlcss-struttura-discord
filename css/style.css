@@ -7,7 +7,6 @@
 .row {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 header {
@@ -40,13 +39,14 @@ header {
 .jumbotron {
     background-color: blue;
     height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .col-60 {
     background-color: pink;
     width: 60%;
     height: 350px;
-    align-items: center;
     border: 1px dashed black;
 }
 
