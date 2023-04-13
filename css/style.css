@@ -38,15 +38,16 @@ header {
 
 .jumbotron {
     background-color: blue;
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
+
 }
 
 .col-60 {
     background-color: pink;
     width: 60%;
-    height: 350px;
+    height: 300px;
     border: 1px dashed black;
 }
 
