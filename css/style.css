@@ -6,6 +6,8 @@
 
 .row {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -23,9 +25,8 @@ header {
     width: 25%;
     background-color: rgb(235, 138, 27);
     height: 25px;
-    align-items: center;
     border: 1px dashed black;
-    margin: 15px 0px;
+    margin: 12px 0px;
 }
 
 .col-50 {
@@ -33,5 +34,21 @@ header {
     background-color: rgb(235, 138, 27);
     height: 25px;
     border: 1px dashed black;
-    margin: 15px 0px;
+    margin: 12px 0px;
 }
+
+.jumbotron {
+    background-color: blue;
+    height: 500px;
+}
+
+.col-60 {
+    background-color: pink;
+    width: 60%;
+    height: 350px;
+    align-items: center;
+    border: 1px dashed black;
+}
+
+
+
