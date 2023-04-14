@@ -9,24 +9,10 @@
     justify-content: center;
 }
 
-.row-foot {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 header {
     width: 100%;
     height: 50px;
     background-color: rgb(155, 224, 201);
-}
-
-footer { 
-        width: 100%;
-        height: 50px;
-        background-color: rgb(23, 23, 23);
-        align-items: flex-end;
-        display: flex;
 }
 
 .container {
@@ -34,51 +20,7 @@ footer {
     margin: 0 auto;
 }
 
-.col-25 {
-    width: 25%;
-    background-color: rgb(235, 138, 27);
-    height: 25px;
-    border: 1px dashed black;
-    margin: 12px 0px;
-}
-
-.col-50 {
-    width: 50%;
-    background-color: rgb(235, 138, 27);
-    height: 25px;
-    border: 1px dashed black;
-    margin: 12px 0px;
-}
-
-.jumbotron {
-    background-color: blue;
-    height: 450px;
-    display: flex;
-    align-items: center;
-
-}
-
-.col-60 {
-    background-color: pink;
-    width: 60%;
-    height: 300px;
-    border: 1px dashed black;
-}
-
-.col-70 {
-    width: 70%;
-    background-color: lightblue;
-    height: 350px;
-    border: 1px dashed black;
-}
-
-.col-30 {
-    width: 30%;
-    background-color: pink;
-    height: 350px;
-    border: 1px dashed black;
-}
-
+/* sfondi */
 .sezione-bianca {
     background-color: white;
     height: 450px;
@@ -107,10 +49,18 @@ footer {
     display: flex;
 }
 
-.col-100 {
-    width: 100%;
-    background-color: green;
+.jumbotron {
+    background-color: blue;
     height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+/* colonne */
+.col-10 {
+    width: 10%;
+    background-color: pink;
+    height: 25px;
     border: 1px dashed black;
 }
 
@@ -121,20 +71,74 @@ footer {
     border: 1px dashed white;
 }
 
-.col-10 {
-    width: 10%;
-    background-color: pink;
+.col-25 {
+    width: 25%;
+    background-color: rgb(235, 138, 27);
     height: 25px;
+    border: 1px dashed black;
+    margin: 12px 0px;
+}
+
+.col-30 {
+    width: 30%;
+    background-color: pink;
+    height: 350px;
     border: 1px dashed black;
 }
 
+.col-50 {
+    width: 50%;
+    background-color: rgb(235, 138, 27);
+    height: 25px;
+    border: 1px dashed black;
+    margin: 12px 0px;
+}
+
+.col-60 {
+    background-color: pink;
+    width: 60%;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-70 {
+    width: 70%;
+    background-color: lightblue;
+    height: 350px;
+    border: 1px dashed black;
+}
+
+.col-100 {
+    width: 100%;
+    background-color: green;
+    height: 450px;
+    border: 1px dashed black;
+}
+
+/* FOOTER */
 .container-foot {
     width: 70%;
     margin: 0 auto;
     background-color: aquamarine;
     height: 50px;
+    align-items: flex-end;
+    display: flex;
 
 }
+
+footer { 
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 23, 23);
+}
+
+.row-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
 
 
 
